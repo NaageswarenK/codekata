@@ -1,0 +1,17 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+class NSum {
+	public static void main(String[] args){
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter N");
+		int n=sc.nextInt();
+		int sum=0;
+		System.out.println("Enter the terms");
+		for(int i=0;i<n;i++){
+			int temp=sc.nextInt();
+			sum+=temp;
+		}
+		System.out.println("Sum of numbers is "+sum);
+	}
+}
