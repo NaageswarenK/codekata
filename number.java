@@ -5,7 +5,7 @@ class Number{
 	public static void main(String[] args)throws java.lang.Exception
 	{
 		Scanner sc=new Scanner(System.in);
-		System.out.println("Enter the variable");
+		System.out.println("Enter the Number");
 		int var=sc.nextInt();
 		if(var>0){
 			System.out.println("Postive Number");
