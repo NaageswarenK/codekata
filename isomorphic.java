@@ -46,15 +46,15 @@ class isomorphic
 					str=str.replace(a[i], a1[i]);
 				}
 				if(str.equals(str1)){
-					System.out.println("Isomorphic string");
+					System.out.println("Isomorphic strings");
 				}
 				else
-					System.out.println("Not a isomorphic string");
+					System.out.println("Not a isomorphic strings");
 			}
 			else
-				System.out.println("Not a isomorphic string");
+				System.out.println("Not a isomorphic strings");
 		}
 		else
-			System.out.println("Not a isomorphic string");
+			System.out.println("Not a isomorphic strings");
 	}
 }
