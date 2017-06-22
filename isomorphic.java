@@ -11,7 +11,6 @@ class isomorphic
 		int flag;
 		int k=0;
 		int l=0;
-		StringBuilder b=new StringBuilder();
 		if(str.length()==str1.length()){
 			char[] a=new char[str.length()];
 			char[] a1=new char[str1.length()];
@@ -46,15 +45,15 @@ class isomorphic
 					str=str.replace(a[i], a1[i]);
 				}
 				if(str.equals(str1)){
-					System.out.println("Isomorphic strings");
+					System.out.println("true");
 				}
 				else
-					System.out.println("Not a isomorphic strings");
+					System.out.println("false");
 			}
 			else
-				System.out.println("Not a isomorphic strings");
+				System.out.println("false");
 		}
 		else
-			System.out.println("Not a isomorphic strings");
+			System.out.println("false");
 	}
 }
