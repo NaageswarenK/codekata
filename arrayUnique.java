@@ -1,12 +1,12 @@
 import java.util.*;
 import java.lang.*;
 import java.io.*;
-class arrayUnique
+class GUVI
 {
 	public static void main (String[] args) throws java.lang.Exception
 	{	
 		Scanner sc=new Scanner(System.in);
-		int n=sc.nextInt(),i,j,flag=0;
+		int n=sc.nextInt(),i,j,flag=0,found=0;
 		int a[]=new int[n];
 		for(i=0;i<n;i++)
 			a[i]=sc.nextInt();
@@ -19,7 +19,13 @@ class arrayUnique
 			}
 			if(flag==0){
 				System.out.println(a[i]);
+				found=1;
 			}
 		}
+		if(found==0){
+			System.out.println("Nil");
+		}
+		
+		
 	}
 }
